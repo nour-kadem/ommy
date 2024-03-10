@@ -1,0 +1,15 @@
+@use "~/abstracts" as *;
+
+.nav {
+  display: flex;
+  padding: space(2) space(6);
+
+  align-items: center;
+  gap: space(1);
+  border-bottom: $border-color 1px solid;
+}
+
+.dashboard {
+  font-weight: bold;
+  margin-right: auto;
+}

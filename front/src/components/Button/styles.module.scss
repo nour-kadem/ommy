@@ -1,0 +1,16 @@
+@use "~/abstracts" as *;
+
+.button {
+  display: flex;
+  gap: space(1);
+  padding: space(1);
+  border: $border-color 1px solid;
+  background-color: transparent;
+  border-radius: $radius;
+  cursor: pointer;
+}
+
+.colored {
+  background-color: $main-color;
+  color: white;
+}

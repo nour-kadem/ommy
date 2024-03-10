@@ -1,0 +1,46 @@
+@use "~/abstracts" as *;
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: space(2);
+  border-right: $border-color 1px solid;
+  width: 15%;
+}
+
+.logo {
+  padding: space(2) space(3);
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: space(1);
+  padding: space(3);
+}
+
+.menuItem {
+  display: flex;
+  font-weight: bold;
+  padding: space(1);
+  border-radius: $radius;
+}
+
+.active {
+  background-color: $bg-color;
+  color: $main-color;
+}
+
+.profile {
+  display: flex;
+  gap: space(1);
+  align-items: center;
+  border-top: $border-color 1px solid;
+  padding: space(2);
+  margin-top: auto;
+}
+
+.dots {
+  margin-left: auto;
+  width: space(2);
+}

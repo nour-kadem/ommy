@@ -1,0 +1,22 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+// Functions
+
+@function space($size) {
+  @return $size * 8px;
+}
+
+// Colors
+
+$border-color: #CFDBD5;
+$main-color: #1B76FF;
+$bg-color: #F1F1F1;
+
+// Variables
+
+$radius: 8px;
+
+// Fonts
+
+$main-font: 'Roboto Flex';

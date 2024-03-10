@@ -1,0 +1,14 @@
+@use "~/abstracts" as *;
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px #FF00001A;
+  padding: space(2);
+}
+
+.heading {  
+  display: flex;
+  justify-content: space-between; 
+}
